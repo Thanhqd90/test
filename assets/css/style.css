@@ -30,6 +30,9 @@ a, a:hover, a:focus {
     outline: none !important;
     border: none;
 }
+.navbar-nav {
+    flex-direction: row;
+}
 .fund {
     color:rgb(0, 165, 55);
 }
@@ -216,9 +219,6 @@ ul.CTAs a {
     }
     .fund {
         display: none;
-    }
-    .navbar-nav {
-        flex-direction: row;
     }
 
 }
